@@ -1,0 +1,177 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("../风景.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+#screen{
+    border-radius: 3px 3px/3px 3px;
+    width:1200px;
+    height: 900px;
+    position: relative;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.bg{
+    width: 1200px;
+    height:900px;
+    position: absolute;
+    background-image: url("../picture.png");
+}
+#bg1{
+    top: 0px;
+}
+#bg2{
+    top: -900px;
+}
+#plane{
+    width: 100px;
+    height: 110px;
+    background-image: url("../airplane.png");
+    position: absolute;
+    top: 500px;
+    left: 240px;
+    display:block ;
+}
+.bullet{
+    position: absolute;
+    width: 5px;
+    height: 11px;
+    top: 20px;
+    left: 20px;
+    background-image: url("../子弹.png");
+}
+.bullet-enemy{
+    position: absolute;
+    width: 5px;
+    height: 11px;
+    top: 20px;
+    left: 20px;
+    background-image: url("../子弹.png");
+}
+.tank{
+    width:57px;
+    height: 43px;
+    background: url("../敌机.png");
+    position: absolute;
+}
+.tank2{
+    width:69px;
+    height: 99px;
+    background: url("../敌机2.png");
+    position: absolute;
+}
+.tank3{
+    width:165px;
+    height: 260px;
+    background: url("../敌机3.png");
+    position: absolute;
+}
+.all{
+    top: 0;
+    left: 0;
+}
+.score{
+    width: 200px;
+    height: 110px;
+    position: absolute;
+    float: left;
+}
+p{
+    display: inline;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+#boom0{
+    width: 0;
+    height: 0;
+    position:absolute;
+    display: none;
+    top: 0;
+    left: 0;
+}
+#boom1{
+    width: 0;
+    height: 0;
+    position:absolute;
+    display: none;
+    top: 0;
+    left: 0;
+}
+#boom2{
+    width: 0;
+    height: 0;
+    position:absolute;
+    display: none;
+    top: 0;
+    left: 0;
+}
+#boom3{
+    width: 0;
+    height: 0;
+    position:absolute;
+    display: none;
+    top: 0;
+    left: 0; 
+}
+img {
+    display: none;
+    width: 100%;
+    height: 100%; 
+}
+
+.again{
+    z-index: 9999;
+    width: 300px;
+    height: 41px;
+    background: url("../again.png");
+    position: absolute;
+    top: 600px;
+    left: 430px;
+   
+}
+.over{
+    z-index: 9999;
+    width: 650px;
+    height: 652px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../gameover.jpg");
+}
+.begin{
+    z-index: 9999;
+    width: 60px;
+    height: 45px;
+    background: url("../begin.png");
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.end{
+    z-index: 9999;
+    width: 60px;
+    height: 45px;
+    background: url("../end.png");
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+#logo {
+    width: 100px;
+    height: 100px;
+    top:0;
+    right:0;
+    position: absolute;
+}
+#logo img{
+    width: 100%;
+    height: 100%; 
+    display: block;
+}
